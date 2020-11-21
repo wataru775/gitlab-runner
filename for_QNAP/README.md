@@ -11,6 +11,8 @@ export TZ=Asia/Tokyo
 apt-get -y -qq update
 apt-get -y -qq upgrade
 apt-get install -y -qq git tzdata
+echo "Asia/Tokyo" > /etc/timezone
+dpkg-reconfigure -f noninteractive tzdata
 ```
 
 ## 最新の構築スクリプトを取得
