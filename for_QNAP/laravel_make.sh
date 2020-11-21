@@ -3,7 +3,7 @@
 #  検証済コンテナ : ubuntu:latest (20.04.1 LTS)
 ##
 
-apt-get -y -qq install php php-fpm unzip mcrypt php-fpm php-common php-mbstring php-xmlrpc php-gd php-xml php-mysql php-cli php-zip php-curl php-imagick git curl rsync
+apt-get -y -qq install php php-fpm unzip mcrypt php-fpm php-common php-mbstring php-xmlrpc php-gd php-xml php-mysql php-cli php-zip php-curl php-imagick php-phpdbg git curl rsync
 
 useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
 
