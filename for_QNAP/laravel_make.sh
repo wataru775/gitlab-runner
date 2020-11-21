@@ -17,8 +17,8 @@ cat <<EOF > /etc/apache2/sites-available/000-default.conf
         ServerAdmin webmaster@localhost
         # DocumentRoot /var/www/html
         DocumentRoot /opt/runner/public
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
+        ErrorLog  /opt/runner/logs/apache2/error.log
+        CustomLog  /opt/runner/logs/apache2/access.log combined
         <Directory /opt/runner/public>
                 AllowOverride All
                 Options Includes FollowSymLinks
