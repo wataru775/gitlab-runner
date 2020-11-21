@@ -22,7 +22,7 @@ Gitのアカウントを入力して取得します
 
 ## スクリプトを実行...
 ```
- /bin/bash ./gitlab-runner/for_QNAP_laravel/make.sh                                                                                         
+ /bin/bash ./gitlab-runner/for_QNAP/laravel_make.sh                                                                                         
 ```
 
 これでできあがりです。
