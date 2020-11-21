@@ -11,11 +11,11 @@ export TZ=Asia/Tokyo
 apt-get -y -qq update
 apt-get -y -qq upgrade
 apt-get install -y -qq git tzdata
-'''
+```
 
 ## 最新の構築スクリプトを取得
-'''
-git clone http://192.168.1.203:9080/mmpp/gitlab-runner
+```
+git clone https://github.com/wataru775/gitlab-runner.git
 ```
 
 Gitのアカウントを入力して取得します
