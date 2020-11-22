@@ -43,6 +43,7 @@ curl https://getcomposer.org/composer-stable.phar -o /usr/local/bin/composer
 chmod +x /usr/local/bin/composer
 composer -V
 
+a2enmod rewrite
 apache2ctl configtest
 service apache2 restart
 
